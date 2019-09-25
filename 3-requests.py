@@ -7,11 +7,6 @@ if __name__ == '__main__':
     url1 = 'http://sc.chinaz.com/tupian/shanshuifengjing.html'
     url2 = 'http://sc.chinaz.com/tupian/shanshuifengjing_%d.html'
 
-
-    #with open('./pic/shanshui.html', mode='w',encoding='utf-8') as fp:
-     #   fp.write(response.text)
-     #   print('网页内容保存成功')
-
     #  <img src2="http://pic1.sc.chinaz.com/Files/pic/pic9/201907/zzpic19245_s.jpg"
 
     pattern = r'<img src2="(.*?)" .*?>'
